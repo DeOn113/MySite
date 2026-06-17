@@ -142,6 +142,11 @@ body {
 .main__container {
     background-color: #F6F8FD;
     padding: 50px 100px 50px;
+    border-radius: 45px;
+    -webkit-border-radius: 45px;
+    -moz-border-radius: 45px;
+    -ms-border-radius: 45px;
+    -o-border-radius: 45px;
 }
 
 /* --------------------------- */
@@ -235,6 +240,7 @@ body {
     font-weight: 600;
     color: #5c89ef;
     border-bottom: solid 2px #000625;
+    text-align: center;
 }
 
 .main__popular-cards {
@@ -295,7 +301,7 @@ body {
 
 .main__dop {
     display: flex;
-    /* align-items: center; */
+    align-items: center;
     justify-content: space-between;
 }
 
@@ -311,9 +317,53 @@ body {
     color: #5c89ef;
     border-bottom: solid 2px #000625;
     margin: 65px 0px;
+    text-align: center;
+}
+
+.main__dop-description {
+    font-family: 'Inter', sans-serif;
+    font-size: 25px;
+    font-weight: 200;
+    line-height: 40px;
+
 }
 
 /* ----------------------- */
+
+.footer__contanier {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.foot__img-img {
+    width: 200px;
+    height: auto;
+}
+
+.foot__title {
+    font-family: 'Inter', sans-serif;
+    font-size: 65px;
+    font-weight: 600;
+    color: #5c89ef;
+    border-bottom: solid 2px #5c89ef;
+    margin: 65px 0px;
+    text-align: center;
+}
+
+.foot__description {
+    font-family: 'Inter', sans-serif;
+    font-size: 25px;
+    font-weight: 200;
+    line-height: 40px;
+    color: #fff;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+
+
+
 
 
 
