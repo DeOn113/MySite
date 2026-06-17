@@ -2,6 +2,9 @@
 <html lang="ru">
 <head>
     <meta charset="UTF-8">
+    <meta name="keywords" content="веб-фреймворк, что это, для чего нужны, обзор, сравнение, React, Vue, Angular, Django, Laravel">
+    <meta name="description" content="Что такое веб-фреймворки и зачем они нужны? Обзор популярных решений: React, Vue, Angular, Django, Laravel. Узнайте, как фреймворки ускоряют разработку.">
+    <meta name="revisit-after" content="7 days">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Сайт им. Кечемайкина Д.Ю.</title>
     <link rel="stylesheet" href="style.css">
@@ -11,8 +14,31 @@
     <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
 
 </head>
+
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-CL3QQME3QN"></script>
+<script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-CL3QQME3QN');
+</script>
+
+<!-- Yandex.Metrika counter -->
+<script type="text/javascript">
+    (function(m,e,t,r,i,k,a){
+        m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
+        m[i].l=1*new Date();
+        for (var j = 0; j < document.scripts.length; j++) {if (document.scripts[j].src === r) { return; }}
+        k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)
+    })(window, document,'script','https://mc.yandex.ru/metrika/tag.js?id=109925134', 'ym');
+
+    ym(109925134, 'init', {ssr:true, clickmap:true, ecommerce:"dataLayer", referrer: document.referrer, url: location.href, accurateTrackBounce:true, trackLinks:true});
+</script>
+<noscript><div><img src="https://mc.yandex.ru/watch/109925134" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+
 <body>
-    <header class="header-container">
+    <header id="head" class="header-container">
         <div class="header__logo">
             <h3 class="header__logo-text1"><</h3>
             <h3 class="header__logo-text2">/</h3>
@@ -21,9 +47,9 @@
         </div>
         <nav class="header__nav">
             <ul class="header__menu">
-                <li class="header__menu-item"><a href="index.html" class="header__menu-link">Главная</a></li>
-                <li class="header__menu-item"><a href="#" class="header__menu-link">Узнать что-то новое</a></li>
-                <li class="header__menu-item"><a href="#" class="header__menu-link">Обо мне</a></li>
+                <li class="header__menu-item"><a href="#head" class="header__menu-link">Главная</a></li>
+                <li class="header__menu-item"><a href="#main" class="header__menu-link">Узнать что-то новое</a></li>
+                <li class="header__menu-item"><a href="#foot" class="header__menu-link">Обо мне</a></li>
             </ul>
         </nav>
     </header>
@@ -55,7 +81,7 @@
         </div>
     </section>
 
-    <section class="main__container">
+    <section id="main" class="main__container">
         <div class="main__whats">
             <h3 class="main__whats-title">Что такое веб-фреймворк?</h3>
             <span class="main__whats-description">это программный каркас, предназначенный для разработки веб-сайтов, сервисов и веб-приложений. Он предоставляет разработчику готовую архитектуру, набор правил, инструментов и компонентов, которые решают типовые задачи в веб-разработке.</span>
@@ -124,7 +150,7 @@
             </div>
         </div>
     </section>
-    <footer class="footer__contanier">
+    <footer id="foot" class="footer__contanier">
         <div class="foot__img">
             <img class="foot__img-img" src="ya_ept.png" alt="">
         </div>
